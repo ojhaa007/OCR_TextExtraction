@@ -16,7 +16,7 @@ def main():
     txt_write = st.empty()
 
     # Initialize the path to Tesseract
-    path_to_tesseract = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
+    path_to_tesseract = '/usr/bin/tesseract'
     pytesseract.pytesseract.tesseract_cmd = path_to_tesseract
     image_path = "test1.jpg"
 
